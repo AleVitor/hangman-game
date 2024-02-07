@@ -10,6 +10,10 @@ nickname = input('What\'s your nickname? ')
 letterL = []
 time.sleep(0.5)
 
+while nickname == '':
+  nickname = input('[ERROR: Empty Input!] What\'s your nickname? ')
+  time.sleep(0.5)
+
 
 print(20*'-=')
 print(f'Welcome to hangman game, {nickname}!!!')
