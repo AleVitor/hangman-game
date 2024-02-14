@@ -14,4 +14,4 @@ Jogo da forca utilizando Python, onde o jogador tem até 5 tentativas para adivi
 ### Erros resolvidos:
 - Campo vazio.
 - Número no campo.
-- Mais que um letra no campo.
+- Mais que uma letra no campo.
