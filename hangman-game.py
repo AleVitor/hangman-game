@@ -39,7 +39,7 @@ while True:
     while letterU in letterL:
       letterU = str(input('[ERROR: You already chose that letter!] Choose other letter: '))
     while not validateNumberWord(letterU):
-      letterU = str(input('[ERROR: Nuber/Empty Input!] Choose a one letter: '))
+      letterU = str(input('[ERROR: Number/Empty Input!] Choose a one letter: '))
     letterU = letterU[0]
     
   #validation of word
